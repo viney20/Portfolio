@@ -1,0 +1,21 @@
+@import "../../global.scss";
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto !important;
+  width: 90vw;
+  gap: 45px;
+
+  .projectCards {
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    height: 70%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

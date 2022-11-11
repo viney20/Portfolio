@@ -1,0 +1,26 @@
+@import "../../global.scss";
+
+.skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding-top: 50px;
+  .imgSkillContainer {
+    display: flex;
+    margin: 10px;
+    height: 50vh;
+    width: 80vw;
+    position: absolute;
+    bottom: 10px;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    > img {
+      height: 96px;
+      width: 96px;
+      margin: 30px;
+    }
+  }
+}

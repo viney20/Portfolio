@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+.CardMainContainer {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px #d4d2cd80;
+
+  .imgcontainer {
+    flex: 0.5;
+    overflow: hidden;
+    > img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .desc {
+    overflow: hidden;
+    flex: 0.5;
+    align-self: start;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: $maincolor;
+    gap: 5px;
+    > h3 {
+      font-size: 23px;
+      font-weight: 500;
+      overflow: hidden;
+    }
+    > p {
+      font-size: 15px;
+      font-weight: 300;
+      overflow: hidden;
+      margin-bottom: 5px;
+    }
+  }
+  .linktoproject {
+    margin: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+
+    > a {
+      text-decoration: none;
+      color: black;
+      gap: 5px;
+      display: flex;
+      align-items: center;
+      justify-self: unset;
+    }
+  }
+}
