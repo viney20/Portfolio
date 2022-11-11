@@ -22,11 +22,11 @@ export default function ProjectCard() {
         </small>
       </div>
       <div className="linktoproject">
-        <a href="">
+        <a href="/#">
           {" "}
           <BsLink45Deg /> Live Preview
         </a>
-        <a href="">
+        <a href="/#">
           {" "}
           <BsGithub /> View Code
         </a>
