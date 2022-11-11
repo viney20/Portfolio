@@ -20,16 +20,16 @@ export default function Skills() {
         subtitle="Technologies I've been working with recently"
       />
       <div className="imgSkillContainer">
-        <img src={htmlimg} alt="html skill image" className="skill" />
-        <img src={cssimg} alt="html skill image" className="skill" />
-        <img src={javaScriptimg} alt="html skill image" className="skill" />
-        <img src={reactimg} alt="html skill image" className="skill" />
-        <img src={reduximg} alt="html skill image" className="skill" />
-        <img src={bootstrapimg} alt="html skill image" className="skill" />
-        <img src={sassimg} alt="html skill image" className="skill" />
-        <img src={gitversionimg} alt="html skill image" className="skill" />
-        <img src={vscodeimg} alt="html skill image" className="skill" />
-        <img src={githubimg} alt="html skill image" className="skill" />
+        <img src={htmlimg} alt="html skill " className="skill" />
+        <img src={cssimg} alt="html skill " className="skill" />
+        <img src={javaScriptimg} alt="html skill " className="skill" />
+        <img src={reactimg} alt="html skill " className="skill" />
+        <img src={reduximg} alt="html skill " className="skill" />
+        <img src={bootstrapimg} alt="html skill " className="skill" />
+        <img src={sassimg} alt="html skill " className="skill" />
+        <img src={gitversionimg} alt="html skill " className="skill" />
+        <img src={vscodeimg} alt="html skill " className="skill" />
+        <img src={githubimg} alt="html skill " className="skill" />
       </div>
     </div>
   );
