@@ -1,20 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "./intro.scss";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Typewriter from "typewriter-effect";
 import Image from "../../image/profilePic.png";
 
 export default function Intro() {
-  // const animatedTextref = useRef();
-
-  // useEffect(() => {
-  //   init(animatedTextref.current, {
-  //     showCursor: false,
-  //     typeSpeed: 100,
-
-  //   });
-  // }, []);
-
   return (
     <div className="intro" id="intro">
       <div className="left">

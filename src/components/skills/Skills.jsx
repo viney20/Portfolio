@@ -29,7 +29,7 @@ export default function Skills() {
         <img src={sassimg} alt="html skill " className="skill" />
         <img src={gitversionimg} alt="html skill " className="skill" />
         <img src={vscodeimg} alt="html skill " className="skill" />
-        <img src={githubimg} alt="html skill " className="skill" />
+        <img src={githubimg} alt="html skill" className="skill" />
       </div>
     </div>
   );
