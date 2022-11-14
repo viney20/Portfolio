@@ -15,4 +15,12 @@ export const data = [
     liveLink: "https://teal-kashata-815076.netlify.app/",
     githubLink: "https://github.com/viney20/eshopReactJS",
   },
+  {
+    ImagePath: "design",
+    titile: "Design Card",
+    desc: " Created UI of the card to connect with fellow mades. Just a showcase  and testing new viteJs library ",
+    techStack: "HTML, SCSS, JavaScript,ViteJs",
+    liveLink: "https://dynamic-sorbet-2ed55a.netlify.app/",
+    githubLink: "https://github.com/viney20/business-card-UI",
+  },
 ];
